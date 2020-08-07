@@ -41,7 +41,7 @@ It works by transfering Dictionary to Dictionary, so you can use Codable, Unbox,
   s.subspec 'Alamofire' do |sp| 
     sp.source_files = 'Japx/Classes/Alamofire/**/*'
     sp.dependency 'Japx/Core'
-    sp.dependency 'Alamofire', '~> 5.0'
+    #sp.dependency 'Alamofire', '~> 5.0'
   end
 
   s.subspec 'RxAlamofire' do |sp| 
